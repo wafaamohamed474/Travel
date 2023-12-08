@@ -133,7 +133,7 @@ img{
     color: #000;
     text-decoration: none;
  }
- .search-form .search-btn button{
+ .search-form .search-btn button {
     background-color: var(--main-yellow);
     color: black;
     text-transform: uppercase;
@@ -335,7 +335,7 @@ hr{
  .about-select .line p{
    color: #666666;
  }
-  button{
+ .main-b{
    border:2px solid var(--blue);
    background-color: #fff;
    padding: 15px 40px;
@@ -347,7 +347,7 @@ hr{
    transition: all 1s;
    z-index:1;
  }
-  button::after{
+ .main-b::after{
    content: " ";
    position: absolute;
    background-color:var(--blue);
@@ -359,10 +359,10 @@ hr{
    transition-timing-function:cubic-bezier(0.5, 1.6, 0.4, 0.7);
    transition: all .4s;
  }
-  button:hover{
+ .main-b:hover{
    color: #fff;
  }
-  button:hover::after{
+ .main-b:hover::after{
    height: 100%;
  }
  /* ==========================founder=============================== */
